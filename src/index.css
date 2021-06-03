@@ -1,0 +1,128 @@
+html,
+body {
+ height: 100%;
+ position: relative;
+ background: url("./assets/mountains.jpg") no-repeat center fixed;
+ background-size: cover;
+ line-height: 1.5;
+}
+
+.special {
+  font-family: 'Yellowtail', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.container {
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  height: 50%;
+  overflow: hidden;
+}
+
+.my-border {
+  border-color: #343a40;
+  border-style: solid;
+  border-width: 20px;
+  background-color: lightgray;
+}
+
+.border-top {
+  padding:5px;
+}
+
+footer {
+  background-color: #343a40;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.white {
+  color: white;
+  margin: auto;
+}
+
+/* About page */
+
+.about {
+  display: inline-block;
+  float:left;
+  margin-left: 5px;
+  margin-right: 10px;
+  padding-top:10px;
+  padding-bottom:15px;
+}
+
+.family {
+  float:right;
+  margin-left:5px;
+  padding-bottom: 10px;
+}
+
+.slide {
+  padding-left: 25px;
+}
+/* contact page */
+
+#spacing {
+  padding-left: 12px;
+}
+
+.btn {
+  margin-bottom: 10px;;
+}
+
+/* portfolio page */
+
+.card-img-top {
+  width: auto;
+  height: 350px;
+}
+
+.card {
+  min-width: 250px;
+}
+
+.project-pic {
+  max-height:100%;
+  max-width: 100%;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+li {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.modal-lg {
+  max-height: 500px;
+}
+
+#modal-content {
+  overflow:scroll;
+  min-height: 250px;
+}
+
+a, a:hover {
+  display:block;
+  color: white;
+  text-decoration: none;
+}
