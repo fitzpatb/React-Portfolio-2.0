@@ -17,6 +17,15 @@ function Portfolios() {
 
   let projectsArray =[
     {
+      title: "Mountain Planner",
+      image: "../images/Mountain.gif",
+      alt: "Mountian Planner gif",
+      description: "Plan or join carpool rides to your favorite colorado resorts.",
+      contributions: "Sole author of the code. Used React to help render specific reservations based on users. Login and Signup pages were assisted with passport.js and bcrypt to keep user informaiton secret. Populated informaiton on pages using Axios and Open Weather APIs.",
+      technologies: "React, Bootstrap, HTML, CSS, JavaScript, Axios, Node.js, Passport, MongoDB, Express and Heroku.",
+      website: "https://secure-fortress-31998.herokuapp.com/"
+    },
+    {
       title: "Employee Directory",
       image: "../images/Directory.gif",
       alt: "Employee Directory gif",
