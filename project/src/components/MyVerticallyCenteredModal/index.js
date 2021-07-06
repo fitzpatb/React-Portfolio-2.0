@@ -37,6 +37,7 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
+        <Button href={props.modal.gitbub}>GitHub</Button>
         <Button href={props.modal.website}>See Website</Button>
       </Modal.Footer>
     </Modal>

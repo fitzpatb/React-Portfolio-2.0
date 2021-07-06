@@ -23,6 +23,7 @@ function Portfolios() {
       description: "Plan or join carpool rides to your favorite colorado resorts.",
       contributions: "Sole author of the code. Used React to help render specific reservations based on users. Login and Signup pages were assisted with passport.js and bcrypt to keep user informaiton secret. Populated informaiton on pages using Axios and Open Weather APIs.",
       technologies: "React, Bootstrap, HTML, CSS, JavaScript, Axios, Node.js, Passport, MongoDB, Express and Heroku.",
+      github: "https://github.com/fitzpatb/Mountain-Planner",
       website: "https://secure-fortress-31998.herokuapp.com/"
     },
     {
@@ -32,6 +33,7 @@ function Portfolios() {
       description: "With a provided database of employees you would be able to easily search and sort employees.",
       contributions: "With the database already provided worte routes to display employees then using a mixture of React and JavaScript made it so that employees update on search and added filter buttons.",
       technologies: "React, Bootstrap, HTML, CSS, and JavaScript.",
+      github: "https://github.com/fitzpatb/Employee-Directory",
       website: "https://fitzpatb.github.io/Employee-Directory/"
     },
     {
@@ -41,6 +43,7 @@ function Portfolios() {
       description: "With this users are able to post and update online or when offline. To help better keep a more accurate budget.",
       contributions: "Using Service Worker and Mongoose set up a connection to both so that when you are online or offline you can enter budgets. Once back online it takes the stored responses and updates your budget automatically on connection",
       technologies: "Service Worker, Mongoose, Node.js, Express, and Heroku",
+      github: "https://github.com/fitzpatb/Budget-Tracker",
       website: "https://mighty-castle-09893.herokuapp.com"
     },
     {
@@ -50,6 +53,7 @@ function Portfolios() {
       description: "Using mongodb connect to a database that allows you to track workouts see overall work done and create a new workout.",
       contributions: "Utilizing starter code first wrote a connection to the database using routes and then set up a heroku connection to MongoDb. To ensure everything would be in the correct format made personal schemas for the workouts in the models.",
       technologies: "Express, Mongoose, Heroku, and JavaScript.",
+      github: "https://github.com/fitzpatb/Fitness-Tracker",
       website: "https://fitness-tracker2121.herokuapp.com/"
     },
     {
@@ -59,6 +63,7 @@ function Portfolios() {
       description: "With this site users are able to make an account, schedule appointments through a clickable calendar and then even view upcoming appointments.",
       contributions: "On this project I worked on the routes for the pages and database to help link the information from page to page and I also designed the schedule modal and worked the logic for the calendar.",
       technologies: "Handlebars, HTML, CSS, JavaScript, mysql, express, Node.js, sequelize.",
+      github: "https://github.com/raseward14/pet_services",
       website: "https://radiant-basin-77736.herokuapp.com/"
     },
     {
@@ -68,6 +73,7 @@ function Portfolios() {
       description: "A functioning tech blog that saves post by user allowing you to edit and delete posts you can comment on other users posts.",
       contributions: "On this project I was tasked with full deployment. Set up the handlebar pages, connected them all to the server through routes, added login capability and made it so that users can create, update, delete and comment posts.",
       technologies: "HTML, CSS, Handlebars, mysql, Sequelize, Express, dotenv, bcrypt, Node.js, JavaScript, and Heroku",
+      github: "https://github.com/fitzpatb/tech_blog",
       website: "https://damp-hamlet-52932.herokuapp.com/"
     },
     {
@@ -77,7 +83,8 @@ function Portfolios() {
       description: "Allows a user to input his team and then it will generate a webpage showing his team and their information.",
       contributions: "Used the terminal to have a series of questions that allowed users to create their team. Once created it uses HTML CSS and Javascript to build a page with your team on it.",
       technologies: "HTML, CSS, JavaScript, Node.js, Inquirer, and Jest.",
-      website: "https://github.com/fitzpatb/Team-Generator"
+      github: "https://github.com/fitzpatb/Team-Generator",
+      website: "https://vimeo.com/523879693"
     },
     {
       title:  "E-Commerce",
@@ -86,7 +93,8 @@ function Portfolios() {
       description: "Create, Read, Update and Delete inventory for any form of e-commerce.",
       contributions: "With Starter code wrote the connection to the server that allowed for all backend routes to be connected as an API allowing to post update and delete products.",
       technologies: "JavaScript, dotenv, Express, mysql, and sequelize.",
-      website: "https://github.com/fitzpatb/E-Commerce"
+      github: "https://github.com/fitzpatb/E-Commerce",
+      website: "https://vimeo.com/535057034"
     },
     {
       title: "Employee Tracker",
@@ -95,7 +103,8 @@ function Portfolios() {
       description: "A backend console tool to help you track and mangage employees.",
       contributions: "Created routes to link to express and keep track of notes, saved user inputs to keep track of notes, make new ones and delete old ones, and used basic CSS template to style.",
       technologies: "HTML, CSS, JavaScript, Node,js, Express, Bootstrap, mysql, Chalk, and console.table.",
-      website: "https://github.com/fitzpatb/Employee-Tracker"
+      github: "https://github.com/fitzpatb/Employee-Tracker",
+      website: "https://vimeo.com/532057102"
     },
     {
       title: "Note Taker",
@@ -104,6 +113,7 @@ function Portfolios() {
       description: "With this project I was tasked with making a simple app that allows using to track and take notes using express.",
       contributions: "Created routes to link to express and keep track of notes, used basic CSS template to style, and saved user inputs to keep track of notes, make new ones and delete old ones.",
       technologies: "HTML, CSS, JavaScript, Node.js, Express",
+      github: "https://github.com/fitzpatb/Note-Taker",
       website: "https://still-waters-76808.herokuapp.com/"
     },
     {
@@ -113,6 +123,7 @@ function Portfolios() {
       description: "An interactive website for music listeners to be able to find, purchase and listen to any song, artist or album even if you only know a few words of the song.",
       contributions: "Made HTML framework and styled with Bulma, set up JavaScript to save all important information from APIs to local storage, added buttons to allow user to clear previous seraches, and made it so that users can view next result if the correct result did not populate.",
       technologies: "HTML, CSS, JavaScript, Bulma, Spotify API, Genius API and Discogs API",
+      github: "https://github.com/bahuisken/earwom",
       website: "https://bahuisken.github.io/earwom/"
     },
     {
@@ -122,6 +133,7 @@ function Portfolios() {
       description: "A dashboard that allows you to search and see the weather for the next 5 days of a city of your choosing.",
       contributions: "Used JavaScript to dynamically update dashboard and show 5 day forecast with moment.js, saved user search query to populate API information, searches and last viewed favorite are saved to local storage to view and used bootstrap to style the page",
       technologies: "HTML, CSS, JavaScript, jQuery, Bootstrap and Moment.js",
+      github: "https://github.com/fitzpatb/Weather-Planner",
       website: "https://fitzpatb.github.io/Weather-Planner/"
     },
     {
@@ -131,6 +143,7 @@ function Portfolios() {
       description: "A dynamically generated calander that allows you to save upcoming tasks for the day and see where you are in your day.",
       contributions: "Utilized moment.js to and setTimeout() to ensure the right time and activity is showing, saved daily activities to local storage, used jQuery to dynamically update the page and used both Bootstrap and prebuilt CSS classes to style the page.",
       technologies: "HTML, CSS, JavaScript, jQuery, Bootstrap and Moment.js",
+      github: "https://github.com/fitzpatb/Calander-Scheduler",
       website: "https://fitzpatb.github.io/Calander-Scheduler/"
     },
     {
@@ -140,6 +153,7 @@ function Portfolios() {
       description: "A short quiz that dynamically updates new questions and keeps your previous scores.",
       contributions: "Put click events in JavaScript to enable the quiz to progress to next questions and used local storage to save previous scores.",
       technologies: "HTML, CSS, JavaScript and BootStrap",
+      github: "https://github.com/fitzpatb/Code-Quiz",
       website: "https://fitzpatb.github.io/Code-Quiz/"
     },
     {
@@ -149,6 +163,7 @@ function Portfolios() {
       description: "This site allows you generate a random password of a length of 8-128 with numbers letters and special characters.",
       contributions: "Used prompts to take in user input for password, put an event listener on generate password button to run JavaScript functions and through elaborate if statements generates a password based on user inputs.",
       technologies: "HTML, CSS, JavaScript, and Bootstrap",
+      github: "https://github.com/fitzpatb/Password-Generator",
       webiste: "https://fitzpatb.github.io/Password-Generator/"
     }
   ];
@@ -166,6 +181,7 @@ function Portfolios() {
           description: projectsArray[i].description,
           contributions: projectsArray[i].contributions,
           technologies: projectsArray[i].technologies,
+          github: projectsArray[i].github,
           website: projectsArray[i].website
         })
       }
