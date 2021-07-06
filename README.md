@@ -6,13 +6,13 @@ My personal portfolio displaying all projects that I have done.
 
 [link](https://brett-fitzpatrick21.netlify.app/)
 
-![photo](./src/assets/home.png)
+![photo](./project/src/assets/home.png)
 
-![photo](./src/assets/contact.png)
+![photo](./project/src/assets/contact.png)
 
-![photo](./src/assets/modal.png)
+![photo](./project/src/assets/modal.png)
 
-![photo](./src/assets/portfolio.png)
+![photo](./project/src/assets/portfolio.png)
 
 ## Table of Contents
 * [Installation](#installation)
