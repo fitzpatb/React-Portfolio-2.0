@@ -9,20 +9,9 @@ function Contact() {
         </div>
         <div className="row">
           <div className="col-10">
-            <form>
-              <div className="form-group">
-                <label htmlFor="Name">Name</label>
-                <input type="text" className="form-control" id="Name" placeholder="Name" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="inputEmail4">Email</label>
-                <input type="email" className="form-control" id="inputEmail4" placeholder="Email" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="Message">Message</label>
-                <textarea className="form-control" id="Message" placeholder="Message" required></textarea>
-              </div>
-              <button type="submit" className="btn btn-primary">Submit</button>
+            To get in contact with me you can reach me by @ (310)-648-0473. I can also be be contacted via email at bfitzpatrick28@gmail.com or simply click the button below.
+            <form action="mailto:bfitzpatrick28@gamil.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+              <button type="submit" className="btn btn-primary">Email: bfitzpatrick28@gmail.com</button>
             </form>
           </div>
         </div>
