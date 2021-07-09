@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/js/bootstrap.min.js";
 
 function Contact() {
   return (
@@ -8,11 +9,23 @@ function Contact() {
           <h1>Contact</h1>
         </div>
         <div className="row">
-          <div className="col-10">
-            To get in contact with me you can reach me by @ (310)-648-0473. I can also be be contacted via email at bfitzpatrick28@gmail.com or simply click the button below.
-            <form action="mailto:bfitzpatrick28@gamil.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-              <button type="submit" className="btn btn-primary">Email: bfitzpatrick28@gmail.com</button>
+          <div className="col-12">
+            To get in contact with me you can reach me by @ (310)-648-0473. I can also be be contacted via email at bfitzpatrick28@gmail.com or fill out the form below.
+            <form
+              action="https://formspree.io/f/xbjqarlq"
+              method="POST"
+              className="form-group"
+            >
+              <label htmlFor="Name">Your Name: </label>
+              <input type="text" name="Name" className="form-control" id="Name" placeholder="Name" required/>
+              <label htmlFor="inputEmail4">Your email: </label>
+              <input type="email" name="_replyto" className="form-control" id="inputEmail4" placeholder="Email" required/>
+              <label htmlFor="Message">Your message: </label>
+              <textarea name="message" className="form-control" id="Message" placeholder="Message" required></textarea>
+              <button type="submit" className="btn btn-primary">Submit</button>
+              <button className="btn btn-primary" ><a href="mailto:name@email.com">Email: bfitzpatrick28@gmail.com</a></button>
             </form>
+
           </div>
         </div>
       </div>
