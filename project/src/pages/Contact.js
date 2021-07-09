@@ -23,7 +23,7 @@ function Contact() {
               <label htmlFor="Message">Your message: </label>
               <textarea name="message" className="form-control" id="Message" placeholder="Message" required></textarea>
               <button type="submit" className="btn btn-primary">Submit</button>
-              <button className="btn btn-primary" ><a href="mailto:name@email.com">Email: bfitzpatrick28@gmail.com</a></button>
+              <button className="btn btn-primary" ><a href="mailto:bfitzpatrick@gmail.com">Email: bfitzpatrick28@gmail.com</a></button>
             </form>
 
           </div>
